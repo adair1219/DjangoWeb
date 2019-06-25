@@ -10,8 +10,8 @@ DEBUG = True
 设置开发环境的 数据库
 """
 DATABASES = {
-    'dafault': {
-        'ENGLNE': 'django.db.backends.spilite3',
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }

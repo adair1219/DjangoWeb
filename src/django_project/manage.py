@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    # fixed param: PROJECT_PROFILE --指所有 django_project 下的文件
+    # fixed param: DJANGO_PROJECT_PROFILE --指所有 django_project 下的文件
     # param: profile --profile = 'develop.py'
     # targe： 随意转换 开发环境与生产环境
     profile = os.environ.get('DJANGO_PROJECT_PROFILE', 'develop')
